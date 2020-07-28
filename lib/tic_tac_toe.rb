@@ -101,7 +101,7 @@ end
     until self.over?
       turn
       if self.won?
-        puts "Congratulations #{winner}!"
+        puts "Congratulations #{self.winner}!"
       elsif self.draw?
         puts "Cat's Game!"
       end

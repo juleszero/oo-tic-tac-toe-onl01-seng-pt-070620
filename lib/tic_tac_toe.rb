@@ -98,10 +98,8 @@ end
   end
   
   def play
-    turns = 0
     until self.over?
       turn
-      turns += 1
       if self.won?
         puts "Congratulations #{winner}!"
       elsif self.draw?

@@ -75,7 +75,7 @@ end
   end
    
   def over?
-    self.full? || self.won?  
+    self.draw? || self.won?  
   end
   
   def winner
